@@ -19,7 +19,7 @@ include vendor/xiaomi/marble/BoardConfigVendor.mk
 DEVICE_PATH := device/xiaomi/marble
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := marble,marblein
+TARGET_OTA_ASSERT_DEVICE := marble|marblein
 
 # Camera - Miui
 $(call soong_config_set,camera,package_name,com.android.camera)
